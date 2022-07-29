@@ -11,8 +11,8 @@
   < bean id="stu" class="com.bjpowernode.pojo.Student">  ==> Spring容器负责对象的创建  
     < property name="name" value="张三"> ==> Spring容器依赖注入值  
     < property name="age" value="22">  
-  < /bean> 
-
+  < /bean>   
+  + 切记:Spring容器在启动时,就创建所有的对象stu....
 
 + AOP面向切面编程
 
