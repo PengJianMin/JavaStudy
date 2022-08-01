@@ -5,6 +5,6 @@
 
 ## 用法
 + Maven是一个**工程**，Springboot是一个**框架**，工程里使用了这个框架，所以要在工程里配上**依赖**。我们**管理的是整个工程**。
-+ Maven注意 local repo（存放依赖在本地） 和 mirror（“依赖”所在的源地址） 的配置。
++ Maven注意 local repo（存放“依赖”在本地） 和 mirror（“依赖”所在的源地址） 的配置。
 + IDEA最好使用自带的**BUNDLE MAVEN**和**settings.xml**，但是可以更改REPO的位置到合适的地方。
 + 我们管理的是Maven工程，只不过导入了Spring框架。
